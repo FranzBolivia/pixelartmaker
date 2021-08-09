@@ -4,8 +4,8 @@ var color;
 var row,col;
 //Read the dimensions of the grid
 function foo() {
-    col = document.getElementById('inputHeight').value
-    row = document.getElementById('inputWidth').value
+    row = document.getElementById('inputHeight').value
+    col = document.getElementById('inputWidth').value
     tableCreate(row,col);
     return true;
  }
